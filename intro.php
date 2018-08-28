@@ -24,5 +24,28 @@ else if($month==11)
 print "nov";
 else
 print "dec";
-print"\n"
+print"\n";
+
+
+
+$months = ["january","february","march","april","may","june","july","august","september","october","november","december"];
+print $months[$month-1];
+
+print"\n";
+
+
+for ($x = 0; $x <= 11; $x++) {
+    echo "The month is: $months[$x] \n";
+} 
+
+for ($x = 2; $x <= 20; $x++) {
+    echo "$x Table \n";
+    for ($y = 1; $y <= 10; $y++) {
+    echo "$x x $y = ".$x*$y." \n";
+} 
+
+} 
+
+
+
 ?>
