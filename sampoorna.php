@@ -6,4 +6,5 @@ print"eligible";
 else
 print"not eligible";
 
+print "\n"
 ?>
